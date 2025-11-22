@@ -18,10 +18,11 @@
 你可以通过 Maven 引入该项目：
 
 ```xml
+
 <dependency>
     <groupId>io.github.zhitron</groupId>
     <artifactId>universal-logger</artifactId>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
 </dependency>
 ```
 
@@ -29,11 +30,11 @@
 
 ## 🧩 功能特性
 
-- 支持多种日志级别（DEBUG, INFO, WARN, ERROR）
-- 灵活的配置选项，支持文件和代码配置
-- 可扩展的日志输出格式（JSON, XML, 自定义格式等）
-- 高性能异步日志记录
-- 支持日志文件滚动和归档
+- 多种输出目标支持（控制台、文件、网络等）
+- 支持MDC（Mapped Diagnostic Context）上下文诊断
+- 日志过滤和路由功能
+- 国际化支持
+- 与主流日志框架兼容（SLF4J, Log4j等）
 
 ---
 
